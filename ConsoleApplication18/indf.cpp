@@ -50,19 +50,19 @@ void choice(int arr[])
 }
 
 
-void mas_max(int arr[])
+void mas_min(int arr[])
 {
-	int arr_max = 1;
+	int arr_min = 1;
 
 	for (int i = 2; i <= SIZE; i++)
 	{
-		if (arr[i] > arr[arr_max])
+		if (arr[i] < arr[arr_min])
 		{
-			arr_max = i;
+			arr_min = i;
 
 		}
 	}
-	cout << "Max element of array is " << arr[arr_max] << "[" << arr_max << "]" << endl;
+	cout << "Min element of array is " << arr[arr_min] << "[" << arr_min << "]" << endl;
 }
 
 void mas_sum(int arr[])

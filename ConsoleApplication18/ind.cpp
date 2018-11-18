@@ -11,7 +11,7 @@ int main()
 
 	int ar[21];
 	choice(ar);
-	mas_max(ar);
+	mas_min(ar);
 	mas_sum(ar);
 	task(ar);
 	system("pause");

@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  ind.cpp
+  indf.cpp
+c:\users\evgeniy\source\repos\consoleapplication18\consoleapplication18\indf.cpp(20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\evgeniy\source\repos\consoleapplication18\consoleapplication18\indf.cpp(42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  ConsoleApplication18.vcxproj -> C:\Users\Evgeniy\source\repos\ConsoleApplication18\Debug\ConsoleApplication18.exe
